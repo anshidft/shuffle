@@ -143,7 +143,7 @@
             margin: 0;
             padding: 0;
             font-weight: 600;
-            font-size: 30px;
+            font-size: 25px;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 
@@ -246,12 +246,21 @@
  </style>
         <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid m-1">
+        <div class="container-fluid m-">
             <a class="navbar-brand text-light" href="index.html">HOME</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="d-flex ms-auto" role="search">
+
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link under_line"  href="#">USER REPORT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ms-4 text-light" href="result_reports.html">RESULTS & REPORTS</a>
+              </li>
+            </ul>
+            <div class="d-flex" role="search">
                 <button class="btn btn-outline-danger" type="submit">LOGOUT</button>
             </div>
             </div>
